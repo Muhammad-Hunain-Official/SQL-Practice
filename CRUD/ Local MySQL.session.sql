@@ -6,13 +6,18 @@ USE startersql;
 SET autocommit = 0;
 -- DELETE FROM startersql.students
 -- WHERE student_id = 102;
-SELECT * FROM startersql.students
+-- SELECT * FROM startersql.students
 
 -- SELECT *
 -- FROM startersql.students
 -- WHERE student_id = 102;
-ROLLBACK;
-SELECT *
-FROM startersql.students
-WHERE student_id = 102;
-COMMIT;
+-- ROLLBACK;
+-- SELECT *
+-- FROM startersql.students
+-- WHERE student_id = 102;
+-- COMMIT;
+-- DELETE FROM startersql.students WHERE student_id = R103;
+-- DELETE FROM startersql.students WHERE student_id = 104;
+-- COMMIT;
+-- ROLLBACK;
+SELECT * FROM startersql.students
