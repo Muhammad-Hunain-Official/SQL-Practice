@@ -20,4 +20,4 @@ SET autocommit = 0;
 -- DELETE FROM startersql.students WHERE student_id = 104;
 -- COMMIT;
 -- ROLLBACK;
-SELECT * FROM startersql.students
+SELECT age,city FROM startersql.students
