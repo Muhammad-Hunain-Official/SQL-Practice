@@ -22,3 +22,4 @@ SET autocommit = 0;
 -- ROLLBACK;
 SELECT * FROM startersql.students
 
+
