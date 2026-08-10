@@ -1,25 +1,37 @@
 USE startersql;
--- SELECT MIN(age) As min_age , MAX(age) AS max_age FROM startersql.students
--- SELECT gender, AVG(cgpa) AS avg_cgpa FROM startersql.students GROUP BY gender
--- select first_name, LENGTH(first_name) AS name_len FROM startersql.students
--- SELECT first_name,gender, IF(gender = 'Male', 'Yes', 'No') as Eligibe FROM startersql.students
-SET autocommit = 0;
--- DELETE FROM startersql.students
--- WHERE student_id = 102;
--- SELECT * FROM startersql.students
 
--- SELECT *
--- FROM startersql.students
--- WHERE student_id = 102;
--- ROLLBACK;
--- SELECT *
--- FROM startersql.students
--- WHERE student_id = 102;
--- COMMIT;
--- DELETE FROM startersql.students WHERE student_id = R103;
--- DELETE FROM startersql.students WHERE student_id = 104;
--- COMMIT;
--- ROLLBACK;
-SELECT * FROM startersql.students
+SELECT student_id
+FROM students
+ORDER BY student_id;
 
 
+
+SELECT student_id, first_name
+FROM students
+WHERE student_id IN (101,102,103,104,105,106,107,108,109,110)
+ORDER BY student_id;
+SELECT student_id, first_name
+FROM students
+ORDER BY student_id;
+
+
+
+INSERT INTO addresses (user_id, street, City)
+VALUES
+(101, 'Main Street 12', 'Lahore'),
+(102, 'University Road 45', 'Karachi'),
+(103, 'Gulshan Avenue 23', 'Islamabad'),
+(104, 'PECHS Block 6', 'Karachi'),
+(105, 'Johar Town Street 10', 'Multan'),
+(106, 'Saddar Road 18', 'Peshawar'),
+(107, 'Satellite Town', 'Rawalpindi'),
+(108, 'Cantt Road 25', 'Sialkot'),
+(109, 'Latifabad Unit 7', 'Hyderabad'),
+(110, 'Jinnah Road 10', 'Quetta');
+
+
+SELECT * FROM startersql.students;
+SELECT * FROM startersql.addresses
+
+
+ALTER TABLE addresses AUTO_INCREMENT = 1;

@@ -20,5 +20,5 @@ VALUES
 
 (109, 'Hassan', 'Raza', 19, 'Male', 'Hyderabad', 'Software Engineering', 2, 3.55, '2024-09-06'),
 
+
 (110, 'Maham', 'Aslam', 22, 'Female', 'Quetta', 'Data Science', 7, 3.88, '2022-09-04');
- 
