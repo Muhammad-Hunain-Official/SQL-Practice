@@ -33,5 +33,7 @@
 -- SELECT *  FROM startersql.students
 
 
-CREATE VIEW rich_students AS SELECT * FROM students WHERE age > 18;
+-- CREATE VIEW rich_students AS SELECT * FROM students WHERE age > 18;
+
+-- DROP VIEW  rich_students;
 SELECT * FROM rich_students
