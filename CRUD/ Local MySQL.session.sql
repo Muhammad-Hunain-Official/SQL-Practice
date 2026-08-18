@@ -1,4 +1,4 @@
--- USE startersql;
+USE startersql;
 -- ALTER TABLE students
 -- ADD COLUMN refred_by_age INT;
 
@@ -36,4 +36,4 @@
 -- CREATE VIEW rich_students AS SELECT * FROM students WHERE age > 18;
 
 -- DROP VIEW  rich_students;
-SELECT * FROM startersql.students
+SHOW indexes FROM startersql.students
