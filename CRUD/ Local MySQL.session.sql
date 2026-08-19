@@ -13,4 +13,9 @@ USE startersql;
 -- );
 -- SELECT student_id, first_name, cgpa, refred_by_age
 -- FROM startersql.students;
-SELECT gender , AVG(cgpa), COUNT(*) as 'Avg' FROM startersql.students GROUP BY gender;
+-- CREATE PROCEDURE select_std()
+-- BEGIN 
+--      SELECT * FROM startersql.students;
+-- END 
+
+CALL select_std();
