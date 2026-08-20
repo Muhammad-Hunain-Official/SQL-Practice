@@ -18,4 +18,4 @@ USE startersql;
 --      SELECT * FROM startersql.students;
 -- END 
 
-CALL select_std();
+SELECT * from pizzahut.order_details
