@@ -18,4 +18,4 @@ USE startersql;
 --      SELECT * FROM startersql.students;
 -- END 
 
-SELECT * from pizzahut.pizzas
+SELECT order_id from pizzahut.orders
